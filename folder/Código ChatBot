@@ -1,0 +1,230 @@
+import telebot
+
+
+CHAVE_API = "5965570409:AAFCHD3XvgRRj4fmIEvSeqhZr00MwSJZUlk"
+bot = telebot.TeleBot(CHAVE_API)
+
+
+@bot.message_handler(commands=["opcao1"])
+def opcao1(mensagem):
+    texto = """
+    Cardápio 
+    /pizza 🍕
+    /hamburguer 🍔
+    /cachorro_Quente 🌭
+    /coca_cola 🍾
+    /bare 🍾
+    /FantaLaranja 🍾"""
+    bot.send_message(mensagem.chat.id, texto)
+
+@bot.message_handler(commands=["pizza"])
+def pizza(mensagem):
+    text = """
+    /Mussarela R$ 35,00 
+    /Calabresa R$ 40,00 
+    /Marguerita R$ 40,00 
+    /4Queijos 45,00 
+    /Frango_com_Catupiry R$ 45,00 
+    /Portuguesa R$ 45,00 
+    /Atum R$ 35,00
+    /Bacon R$ 35,00
+    """
+    bot.send_message(mensagem.chat.id,text)
+
+@bot.message_handler(commands=["Mussarela"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado")
+
+@bot.message_handler(commands=["Calabresa"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nsua pizza de calabresa chega em 20 minutos")
+
+@bot.message_handler(commands=["Marguerita"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nsua pizza de Marguerita chega em 20 minutos")
+
+@bot.message_handler(commands=["4Queijos"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nsua pizza de 4Queijos chega em 20 minutos")
+
+@bot.message_handler(commands=["Frango_com_Catupiry"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nsua pizza de Frango com Catupiry chega em 20 minutos")
+
+@bot.message_handler(commands=["Atum"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nsua pizza de Atum chega em 20 minutos")
+
+@bot.message_handler(commands=["Portuguesa"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nsua pizza de portuguesa chega em 20 minutos")
+
+@bot.message_handler(commands=["Bacon"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nsua pizza de Bacon chega em 20 minutos")
+
+
+#Hamburguers
+#---------------------------------------------------------------------------------------------------------------------
+@bot.message_handler(commands=["hamburguer"])
+def hamburguer(mensagem):
+    text = """
+    /Big_Mac R$25,90. 
+    /Whopper R$29,90. 
+    /Cheeseburger R$55,00. 
+    /Double_Double R$29,90.
+    /ShackBurger R$35,90 """
+    bot.send_message(mensagem.chat.id,text)
+
+
+@bot.message_handler(commands=["Big_Mac"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nseu hamburguer Big Mac chega em 20 minutos")
+
+@bot.message_handler(commands=["Whopper"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nseu hamburguer Whopper chega em 20 minutos")
+
+@bot.message_handler(commands=["Cheeseburger"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nseu hamburguer Cheeseburger chega em 20 minutos")
+
+@bot.message_handler(commands=["Double-Double"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nseu hamburguer Double-Double chega em 20 minutos")
+
+@bot.message_handler(commands=["ShackBurger"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nseu hamburguer ShackBurger chega em 20 minutos")
+
+#cachorro quente   
+@bot.message_handler(commands=["cachorro_Quente"])
+def hamburguer(mensagem):
+    text = """
+    /Classico  R$12,90. 
+    /Brasileiro R$13,90. 
+    /Mexicano R$10,00. 
+    /Havaiano R$11,90.
+    /Vegetariano R$9,90 """
+    bot.send_message(mensagem.chat.id,text)
+
+
+@bot.message_handler(commands=["Classico"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nseu cachorro quente Clássico chega em 20 minutos")
+
+@bot.message_handler(commands=["Brasileiro"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nseu cachorro quente Brasileiro chega em 20 minutos")
+
+@bot.message_handler(commands=["Mexicano"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nseu cachorro quente Mexicano chega em 20 minutos")
+
+@bot.message_handler(commands=["Vegetariano"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\nseu cachorro quente Vegetariano chega em 20 minutos")
+
+#coca------------------------------------------------
+
+@bot.message_handler(commands=["coca_cola"]) 
+def coca(mensagem):
+    text = """
+    /coca500ML R$5,90. 
+    /coca1L R$7,90. 
+    /coca2L R$10,00"""
+    bot.send_message(mensagem.chat.id, text)
+
+@bot.message_handler(commands=["coca500ML"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\n")
+
+@bot.message_handler(commands=["coca1L"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\n")
+       
+@bot.message_handler(commands=["coca2L"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\n")
+#---------------------------------------------------------------
+
+@bot.message_handler(commands=["bare"]) 
+def coca(mensagem):
+    text = """
+    /bare500ML R$4,90. 
+    /bare1L R$6,90. 
+    /bare2L R$8,00"""
+    bot.send_message(mensagem.chat.id, text)
+
+@bot.message_handler(commands=["bare500ML"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\n")
+
+@bot.message_handler(commands=["bare1L"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\n")
+       
+@bot.message_handler(commands=["bare2L"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\n")
+
+#============================================================================
+
+@bot.message_handler(commands=["FantaLaranja"]) 
+def coca(mensagem):
+    text = """
+    /FantaLaranja500ML R$5,90. 
+    /FantaLaranja1L R$6,99. 
+    /FantaLaranja2L R$7,99"""
+    bot.send_message(mensagem.chat.id, text)
+
+@bot.message_handler(commands=["FantaLaranja500ML"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\n")
+
+@bot.message_handler(commands=["FantaLaranja1L"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\n")
+       
+@bot.message_handler(commands=["FantaLaranja2L"]) 
+def mussarela(mensagem):
+       bot.send_message(mensagem.chat.id,"Pedido Realizado\n")
+
+#==================================================
+#Gerar link de pagamento
+
+@bot.message_handler(commands=["opcao2"])
+def opcao2(mensagem):
+    text = """
+    Link de Pagamento:\n
+    https://nubank.com.br/pagar/1gb8rc/VR3oHTwCIQ"""
+
+    bot.send_message(mensagem.chat.id, text)
+
+@bot.message_handler(commands=["opcao3"])
+def opcao3(mensagem):
+    text = """
+    Envie um email para:\n
+    salaches@gmail.com\n
+    Teremos um prazer em atendê-lo"""
+    bot.send_message(mensagem.chat.id, text)
+
+
+#---------------------------------------------------------------------------------------------------------------
+def verificar(mensagem):
+    return True
+
+@bot.message_handler(func=verificar)
+def responder(mensagem):
+    text = """
+    SEJA BEM VINDO A SA LACHES🤖
+    
+    Escolha uma opção (Clique no item):\n
+     /opcao1 Fazer um pedido
+     /opcao2 Realizar Pagamento
+     /opcao3 Reclamar de um pedido
+
+    Escolha apenas dentre as opções acima.."""
+    bot.reply_to(mensagem, text)
+
+bot.polling()
