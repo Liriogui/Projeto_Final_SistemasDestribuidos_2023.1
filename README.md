@@ -1,8 +1,7 @@
 <h1 align="center">Projeto_Final_SistemasDestribuidos_2023.1 
 <h1 align="center">Dupla: Guilherme Lirioberto e Lucas Ribeiro Alvino</h1>
-<h3 align="center">Projeto Final de Sistemas Distibuído 2023.1</h3>
+<h3 align="center">Projeto Final de Sistemas Destribuídos 2023.1</h3>
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
