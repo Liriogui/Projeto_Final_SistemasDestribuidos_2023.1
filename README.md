@@ -11,4 +11,3 @@
 <h1 align="center">Diagrama dos Microserviços</h1>
 
 ![Microserviços.png](https://github.com/Liriogui/Projeto_Final_SistemasDestribuidos_2023.1/Microserviços.png)
-
