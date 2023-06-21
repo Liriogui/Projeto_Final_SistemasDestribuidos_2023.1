@@ -24,19 +24,23 @@ Projeto referente a diciplina de Sistemas Distribuídos, com o objetivo de manip
 - `TeleBot (Python)`: Através da API Telebot, em python, configurar funcionalidades do bot
 - `Conteiners`: Criação e link dos containers no código do bot
 
-## Testes
+## Testanto
 - Containers Docker Rodando
 
-![Containers_Docker.png](https://github.com/Lucasx10/Chatbot-Telegram-Docker/blob/master/Testes/Containers_Docker.png)
+![ConteinersUp.png](https://github.com/Liriogui/Projeto_Final_SistemasDestribuidos_2023.1/blob/main/Testanto/ConteinersUp.png)
 
-- Phpmyadmin Rodando com Alguns dados de teste do Banco MySQL
+- Banco de dados MySQL Workbanch
 
 ![PhpmyadminBD.png](https://github.com/Lucasx10/Chatbot-Telegram-Docker/blob/master/Testes/PhpmyadminBD.png)
 
-- Teste 1 ChatBot Funcionando 
+- Teste do LanchoneteBot Telegram (Start)
 
-![Teste1.png](https://github.com/Lucasx10/Chatbot-Telegram-Docker/blob/master/Testes/Teste1.png)
 
-- Teste 2 ChatBot Limitação ChatGPT
 
-![Teste2.png](https://github.com/Lucasx10/Chatbot-Telegram-Docker/blob/master/Testes/Teste2.png)
+- Teste do LanchoneteBot Telegram (Cardapio)
+
+
+
+- Teste do LanchoneteBot Telegram (Pagamento)
+
+
