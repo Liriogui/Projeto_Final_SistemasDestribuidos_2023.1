@@ -27,11 +27,11 @@ Projeto referente a diciplina de Sistemas Distribuídos, com o objetivo de manip
 ## Testanto
 - Containers Docker Rodando
 
-![ConteinersUp.png](https://github.com/Liriogui/Projeto_Final_SistemasDestribuidos_2023.1/blob/main/Testanto/ConteinersUp.png)
+![ConteinersUp.png](https://github.com/Liriogui/Projeto_Final_SistemasDestribuidos_2023.1/blob/main/Testando/ConteinersUp.png)
 
 - Banco de dados MySQL Workbanch
 
-![PhpmyadminBD.png](https://github.com/Lucasx10/Chatbot-Telegram-Docker/blob/master/Testes/PhpmyadminBD.png)
+![BDtesting.png](https://github.com/Liriogui/Projeto_Final_SistemasDestribuidos_2023.1/blob/main/Testando/BDtesting.png)
 
 - Teste do LanchoneteBot Telegram (Start)
 
