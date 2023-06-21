@@ -2,13 +2,12 @@ import telebot
 import mysql.connector
 
 
-CHAVE_API = "6070088798:AAEOhJrqc8rYNdFGHeG6qs-tdR1WUSbZhwk"
+CHAVE_API = ""
 bot = telebot.TeleBot(CHAVE_API)
 
 
-db = mysql.connector.connect(host='172.0.0.1',user='root',password='root',database='teste')
+db = mysql.connector.connect(host='',user='',password='',database='')
 cur = db.cursor()
-
 
 @bot.message_handler(commands=["opcao1"])
 def opcao1(mensagem):
@@ -108,8 +107,6 @@ def bacon(mensagem):
        t = "Pedido realizado!"
        bot.send_message(mensagem.chat.id,t)
        bot.send_message(mensagem.chat.id,text)
-
-#Hamburguers
 
 @bot.message_handler(commands=["hamburguer"])
 def hamburguer(mensagem):
@@ -214,9 +211,6 @@ def havaiano(mensagem):
        bot.send_message(mensagem.chat.id,t)
        bot.send_message(mensagem.chat.id,text)
 
-
-#coca------------------------------------------------
-
 @bot.message_handler(commands=["coca_cola"]) 
 def coca(mensagem):
     text = """
@@ -252,8 +246,7 @@ def mussarela(mensagem):
        t = "Pedido realizado!"
        bot.send_message(mensagem.chat.id,t)
        bot.send_message(mensagem.chat.id,text)
-#---------------------------------------------------------------
-
+    
 @bot.message_handler(commands=["bare"]) 
 def coca(mensagem):
     text = """
@@ -289,8 +282,6 @@ def mussarela(mensagem):
        bot.send_message(mensagem.chat.id,t)
        bot.send_message(mensagem.chat.id,text)
 
-#============================================================================
-
 @bot.message_handler(commands=["FantaLaranja"]) 
 def fanta(mensagem):
     text = """
@@ -325,8 +316,6 @@ def fanta(mensagem):
        t = "Pedido realizado!"
        bot.send_message(mensagem.chat.id,t)
        bot.send_message(mensagem.chat.id,text)
-#==================================================
-#Gerar link de pagamento
 
 @bot.message_handler(commands=["opcao2"])
 def opcao2(mensagem):
@@ -343,8 +332,6 @@ def opcao3(mensagem):
     Teremos um prazer em atendê-lo"""
     bot.send_message(mensagem.chat.id, text)
 
-
-#---------------------------------------------------------------------------------------------------------------
 def verificar(mensagem):
     return True
 
