@@ -1,6 +1,6 @@
 <h1 align="center">Projeto_Final_SistemasDestribuidos_2023.1 
 <h1 align="center">Dupla: Guilherme Lirioberto e Lucas Ribeiro Alvino</h1>
-<h3 align="center">ChatBot Telegram para atendimento de uma Lanchonete</h3>
+<h3 align="center">CHATBOT TELEGRAM PARA UMA LANCHONETE</h3>
 
 <p align="left">
 </p>
