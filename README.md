@@ -11,3 +11,6 @@
 <h1 align="center">Diagrama dos Microserviços</h1>
 
 ![Microsserviços.png](https://github.com/Liriogui/Projeto_Final_SistemasDestribuidos_2023.1/blob/main/Microsserviços.png)
+ #LanchoneteBot-Telegram-Docker
+ 
+Projeto referente a diciplina de Sistemas Distribuídos, com o objetivo de manipular e conectar conteiners no Docker através de um tema espesífico, nesse caso um bot no telegram de uma lanchonete que possui os seguintes microsserviços: Bot no Telegram em Python e um banco de dados com o cardapio através do MySQL.
