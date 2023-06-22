@@ -24,7 +24,7 @@ Projeto referente a diciplina de Sistemas Distribuídos, com o objetivo de manip
 - `TeleBot (Python)`: Através da API Telebot, em python, configurar funcionalidades do bot
 - `Conteiners`: Criação e link dos containers no código do bot
 
-## Testanto
+## Testando
 - Containers Docker Rodando
 
 ![ConteinersUp.png](https://github.com/Liriogui/Projeto_Final_SistemasDestribuidos_2023.1/blob/main/Testando/ConteinersUp.png)
