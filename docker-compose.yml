@@ -15,8 +15,3 @@ services:
       - 3307:3306
     expose:
       - 3307
-    chat-bot:
-  build:
-      context: .
-      dockerfile: Dockerfile
-      container_name: chatbot-api
