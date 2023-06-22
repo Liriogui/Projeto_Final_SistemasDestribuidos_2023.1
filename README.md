@@ -35,12 +35,12 @@ Projeto referente a diciplina de Sistemas Distribuídos, com o objetivo de manip
 
 - Teste do LanchoneteBot Telegram (Start)
 
-
+![Start.PNG](https://github.com/Liriogui/Projeto_Final_SistemasDestribuidos_2023.1/blob/main/Testando/Start.PNG)
 
 - Teste do LanchoneteBot Telegram (Cardapio)
 
-
+![Cardapio.PNG](https://github.com/Liriogui/Projeto_Final_SistemasDestribuidos_2023.1/blob/main/Testando/Cardapio.PNG)
 
 - Teste do LanchoneteBot Telegram (Pagamento)
 
-
+![Pagamento.PNG](https://github.com/Liriogui/Projeto_Final_SistemasDestribuidos_2023.1/blob/main/Testando/Pagamento.PNG)
